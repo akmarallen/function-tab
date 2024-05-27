@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ada7ce;
+}
+
+.content {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.tabs {
+  display: flex;
+}
+
+.header-txt {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.tabs-link {
+  display: flex;
+  width: inherit;
+  height: inherit;
+  flex-direction: column;
+  gap: 10px;
+}
+.tabs_content {
+  height: 400px;
+  /* display: none; */
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.tabs_content h2 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.tabs_content p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.tablink {
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  transition: background-color 0.1s ease;
+}
+.tablink:hover {
+  background-color: #6c52d1;
+  color: white;
+  transition-delay: 3ms;
+}
+
+.active {
+  background-color: #6c52d1;
+  color: white;
+}

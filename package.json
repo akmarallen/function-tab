@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@mui/icons-material": "^5.15.18",
+    "bootstrap-icons": "^1.11.3"
+  }
+}
